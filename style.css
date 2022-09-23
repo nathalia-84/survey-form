@@ -6,6 +6,16 @@ body {
     color: #f5f6f7;
     font-family: Tahoma;
     font-size: 16px;
+    background-image: 
+    linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://img.freepik.com/free-photo/mixed-programers-team-working-group-project-multiple-screens-showing-running-code-it-startup-office-coder-pointing-pencil-computer-screen-with-software-compiling-code_482257-33301.jpg?w=826&t=st=1663949206~exp=1663949806~hmac=d42de85cac9b9c6bcfb9870b044478f4e755107012160b89503551190fc8cb44);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   
   h1, p {
