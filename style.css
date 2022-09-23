@@ -2,14 +2,13 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #1b1b32;
     color: #f5f6f7;
     font-family: Tahoma;
     font-size: 16px;
     background-image: 
     linear-gradient(
       115deg,
-      rgba(58, 58, 158, 0.8),
+      rgba(179, 4, 91, 0.8),
       rgba(136, 136, 206, 0.7)
     ),
     url(https://img.freepik.com/free-photo/mixed-programers-team-working-group-project-multiple-screens-showing-running-code-it-startup-office-coder-pointing-pencil-computer-screen-with-software-compiling-code_482257-33301.jpg?w=826&t=st=1663949206~exp=1663949806~hmac=d42de85cac9b9c6bcfb9870b044478f4e755107012160b89503551190fc8cb44);
@@ -17,8 +16,17 @@ body {
     background-attachment: fixed;
     background-size: cover;
   }
+
+  .form-background {
+    width: 80%;
+    background-color: rgba(185, 40, 141, 0.774);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
   
-  h1, p {
+  h1, .description {
     margin: 1em auto;
     text-align: center;
   }
@@ -54,9 +62,11 @@ body {
     min-height: 2em;
   }
   
-  input, textarea {
-    background-color: #0a0a23;
-    border: 1px solid #0a0a23;
+  input, 
+  textarea, 
+  select {
+    background-color: #950058;
+    border: 1px solid #950058;
     color: #ffffff;
   }
   
@@ -72,7 +82,7 @@ body {
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #3b3b4f;
+    background-color: #b26191;
     border-color: white;
     min-width: 300px;
   }
@@ -84,3 +94,4 @@ body {
   a {
     color: #dfdfe2;
   }
+

@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeWeek</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1 id="title">CodeWeek Survey Form</h1>
   <p id="description" class="description">Join us in our week of coding and fun!</p>
-  <form id="survey-form">
+  <form id="survey-form" class="form-background">
     <label for="name" id="name-label">Name 
       <input id="name" name="name" type="text" required placeholder="Jane Doe"/>
     </label>
@@ -54,11 +54,13 @@
     <label for="bio">Tell us more about you:
           <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
     </label>
-    <label for="terms">
-    <input type="radio" id="terms" name="final-options" value="terms" class="inline"> I agree with the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> of the event!
+    
+    <p>I agree with the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> of the event!</p> 
+    <label for="yes">
+    <input type="radio" id="yes" name="terms-conditions" value="yes" class="inline"> Yes
     </label>
-    <label for="news">
-    <input type="radio" id="news" name="final-options" value="news" class="inline"> I want to receive nws from Codeweek and its partners!
+    <label for="no">
+      <input type="radio" id="no" name="terms-conditions" value="no" class="inline"> No
     </label>
     <input id="submit" type="submit"value="Submit"/>
   </form>
